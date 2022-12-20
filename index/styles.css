@@ -1,0 +1,8 @@
+.vertical-align{
+    display: flex;
+    align-items: center;
+}
+
+.color-gold{
+    background-color: #deb158;
+}
