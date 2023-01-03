@@ -10,100 +10,134 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="../index/styles.css" />
   </head>
   <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+    <!-- Navbar -->
+    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom fixed-top bg-white">
       <a
         href="/"
         class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
       >
-        <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-        <span class="fs-4">Lasuntu Charcoal</span>
+      <img src="/assets/logo/Logo_Lasuntu_A.png" style="width: 150px;"/>
+      <div class="row">
+        <span style="font-size: 36px;" class="text-uppercase">Lasuntu</span>
+        <span style="font-size: 14px;">Charcoal Solution</span>
+      </div>
       </a>
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills py-4">
         <li class="nav-item">
-          <a href="#" class="nav-link" aria-current="page">Home</a>
+          <a href="#" class="nav-link text-black" aria-current="page">Home</a>
         </li>
         <li class="nav-item">
-          <a href="#about-us" class="nav-link">About Us</a>
+          <a href="#about-us" class="nav-link text-black">About Us</a>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-        <li class="nav-item"><a href="/index/pages/faq.html" class="nav-link">FAQ</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-item">
+          <a href="#features" class="nav-link text-black">Features</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link text-black">Product</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-black">Gallery</a></li>
+        <li class="nav-item">
+          <a href="/index/pages/faq.html" class="nav-link text-black">FAQ</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link text-black">Contact</a></li>
       </ul>
     </header>
+
+    Jumbotron
     <main
       class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
-      style="background-image: url('../assets/jumbotron.jpg'); height: 90vh"
+      style="background-image: url('../assets/jumbotron.jpg'); height: 100vh"
     >
       <div class="container">
-        <div class="d-sm-flex align-items-center" style="height: 600px">
+        <div class="d-sm-flex align-items-center" style="height: 700px">
           <div>
-            <h1 class="text-white">Lasuntu Charcoal</h1>
-            <p class="lead my-4 text-white fs-1">
+            <p class="lead my-4 text-white fs-1" style="width: 500px;">
               Trusted and finest Coconut shell
             </p>
           </div>
         </div>
       </div>
     </main>
+    <!-- WhatsApp Button -->
+    <a class="whats-app" href="https://wa.me/628111191601" target="_blank">
+      <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
 
+    <!-- About Us -->
     <main
-      class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      class="text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start color-gold"
       id="about-us"
+      style="height: 80vh;"
     >
       <div class="container">
-        <h1>About Us</h1>
+        <h1 class="text-uppercase">About Us</h1>
         <div
           class="d-sm-flex align-items-center justify-content-between"
-          style="height: 90vh"
+          style="height: 60vh; "
         >
-          <div>
-            <p class="lead my-5 me-4">
+          <div style="width: 100rem;">
+            <p class="lead my-2 me-4">
               Lasuntu charcoal, trusted and finest Coconut shell Charcoal
               Briquette manufacturer in indonesia. Our commitment is to
               maintaining quality with the aim of gaining customer trust and
               satisfaction. our charcoal is made from 100 % natural coconut
               shell and no chemical.
             </p>
-            <p class="lead my-5 me-4">
+            <p class="lead my-2 me-4">
               Lasuntu charcoal, is made from the highest quality material from
               <span class="fw-bold">Sulawesi, Sumatra, and Java region</span>,
               to ensure the quality for both
               <span class="fw-bold">Shisha/Hookah</span> and for
               <span class="fw-bold">Barbeque</span> use.
             </p>
-            <p class="lead my-5 me-4">
-              Our factory is located 30 km from semarang city, central java. i
+            <p class="lead my-2 me-4">
+              Our factory is located 30 km from semarang city, central java. I
               very welcome you to come to Indonesia and directly see our factory
               and manufacture. Our capacity per day is about 9 – 10 tons per
               day. We provides Any size and quality according your own request
               including master box, inner box, and plastic itself.
             </p>
-            <p class="lead my-5 me-4">
+            <p class="lead my-2 me-4">
               It is hotter and last longer than ordinary charcoal, no smoke, no
               spark/flame and no smell.
             </p>
           </div>
-          <img
-            class="img-fluid w-50 d-none d-sm-block"
-            src="/assets/about-us.jpg"
-            alt=""
-          />
+          <div class="container ms-5">
+          <div class="row text-center">
+            <div class="col bg-light me-3 rounded" style="padding: 10px;">
+              <img src="../assets/verified.png" class="features-logo" />
+              <h3>Integrity</h3>
+            </div>
+            <div class="col bg-light me-3 rounded" style="padding: 10px;">
+              <img src="../assets/medal.png" class="features-logo" />
+              <h3>Quality</h3>
+            </div>
+            <div class="col bg-light mr-3 rounded" style="padding: 10px;">
+              <img src="../assets/handshake.png" class="features-logo" />
+              <h3>Commitment</h3>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </main>
 
+    <!-- Product -->
     <main
-      class="color-gold text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
       id="product"
     >
-      <div class="container">
-        <h1 class="text-white">Product</h1>
+      <div class="container carousel carousel-dark slide">
+        <h1 class="text-black text-uppercase text-center" style="text-decoration: underline; text-decoration-color: #deb158;">Product</h1>
         <div
           class="d-sm-flex align-items-center justify-content-between"
           style="height: 90vh"
@@ -134,26 +168,66 @@
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
               ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="../assets/about-us.jpg"
-                  class="mx-auto d-block w-75"
+                  src="../assets/product/bricket_1.jpg"
+                  class="mx-auto d-block product-image"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/about-us.jpg"
-                  class="mx-auto d-block w-75"
+                  src="../assets/product/bricket_2.jpg"
+                  class="mx-auto d-block product-image"
+                  alt="..."
+                  
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/product/bricket_3.jpg"
+                  class="mx-auto d-block product-image"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/about-us.jpg"
-                  class="mx-auto d-block w-75"
+                  src="../assets/product/bricket_4.jpg"
+                  class="mx-auto d-block product-image"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/product/bricket_5.jpg"
+                  class="mx-auto d-block product-image"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../assets/product/bricket_6.jpg"
+                  class="mx-auto d-block product-image"
                   alt="..."
                 />
               </div>
@@ -186,14 +260,188 @@
         </div>
       </div>
     </main>
-    <main class="container" id="contact-us">
-      <!--Section: Contact v.2-->
+
+    <!-- Gallery -->
+    <!-- <main
+      class="bg-dark text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      id="gallery"
+    >
+      <div class="container">
+        <h1 class="text-white">Gallery</h1>
+        <div
+          class="d-sm-flex align-items-center justify-content-between"
+          style="height: 90vh"
+        >
+          <div
+            id="carouselExampleIndicatorsGallery"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicatorsGallery"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicatorsGallery"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicatorsGallery"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicatorsGallery"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="../assets/about-us.jpg"
+                      class="mx-auto d-block w-75"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicatorsGallery"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicatorsGallery"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main> -->
+
+    <!-- Contact Us-->
+    <!-- <main class="container" id="contact-us">
       <section class="mb-4">
-        <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">
           Contact us
         </h2>
-        <!--Section description-->
         <p class="text-center w-responsive mx-auto mb-5">
           Do you have any questions? Please do not hesitate to contact us
           directly. Our team will come back to you within a matter of hours to
@@ -201,7 +449,6 @@
         </p>
 
         <div class="row">
-          <!--Grid column-->
           <div class="col-md-9 mb-md-0 mb-5">
             <form
               id="contact-form"
@@ -209,9 +456,7 @@
               action="mail.php"
               method="POST"
             >
-              <!--Grid row-->
               <div class="row">
-                <!--Grid column-->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
                     <input
@@ -223,9 +468,6 @@
                     <label for="name" class="">Your name</label>
                   </div>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
                     <input
@@ -237,11 +479,7 @@
                     <label for="email" class="">Your email</label>
                   </div>
                 </div>
-                <!--Grid column-->
               </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form mb-0">
@@ -255,11 +493,7 @@
                   </div>
                 </div>
               </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
               <div class="row">
-                <!--Grid column-->
                 <div class="col-md-12">
                   <div class="md-form">
                     <textarea
@@ -273,9 +507,7 @@
                   </div>
                 </div>
               </div>
-              <!--Grid row-->
             </form>
-
             <div class="text-center text-md-left">
               <a
                 class="btn btn-primary"
@@ -285,9 +517,6 @@
             </div>
             <div class="status"></div>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
           <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
               <li>
@@ -306,11 +535,9 @@
               </li>
             </ul>
           </div>
-          <!--Grid column-->
         </div>
       </section>
-      <!--Section: Contact v.2-->
-    </main>
+    </main> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
