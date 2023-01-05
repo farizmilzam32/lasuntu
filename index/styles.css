@@ -43,8 +43,18 @@ body{
     height: 50px;
 }
 
+.gallery-size{
+    width: 200px;
+    height: 200px;
+}
+
 .font-text{
     font-size: 16px;
+}
+
+.underline-style{
+    text-decoration: underline; 
+    text-decoration-color: #deb158;
 }
 
 .product-image{
