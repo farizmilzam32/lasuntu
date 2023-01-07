@@ -15,33 +15,35 @@
 </head>
 
 <body>
-  <header class="d-flex flex-wrap justify-content-center py-3 border-bottom fixed-top bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a
-      href="/"
+      href="index.html"
       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
     >
-    <img src="/assets/logo/Logo_Lasuntu_A.png" style="width: 130px;" class="ms-5"/>
+    <img src="/assets/logo/Logo_Lasuntu_A.png" style="width: 130px;" class="container"/>
     </a>
-    <ul class="nav nav-pills py-4">
-      <li class="nav-item">
-        <a href="/index/index.html" class="nav-link text-black" aria-current="page">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="#about-us" class="nav-link text-black">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a href="#features" class="nav-link text-black">Features</a>
-      </li>
-      <li class="nav-item"><a href="#" class="nav-link text-black">Product</a></li>
-      <li class="nav-item"><a href="#gallery" class="nav-link text-black">Gallery</a></li>
-      <li class="nav-item">
-        <a href="/index/pages/faq.html" class="nav-link text-black">FAQ</a>
-      </li>
-      <li class="nav-item"><a href="#" class="nav-link text-black">Contact</a></li>
-    </ul>
-  </header>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto px-4">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-black" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about-us" class="nav-link text-black">About Us</a>
+        </li>
+        <li class="nav-item"><a href="#product" class="nav-link text-black">Product</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link text-black">Gallery</a></li>
+        <li class="nav-item">
+          <a href="/index/pages/faq.html" class="nav-link text-black">FAQ</a>
+        </li>
+        <li class="nav-item"><a href="#contact-us" class="nav-link text-black">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
   
-  <main class="container" style="padding-top: 10rem; padding-bottom: 3rem;">
+  <main class="container" style="padding-top: 3rem; padding-bottom: 3rem;">
     <h1 class="py-3 text-uppercase text-center">Frequently Asked Questions (FAQS)</h1>
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
@@ -176,20 +178,20 @@
     </div>
   </main>
 
-  <main class="">
+  <main>
   <div class="mb-3">
     <div class="row text-center">
-      <div class="col">
+      <div class="col-sm-4">
         <i class="fa-solid fa-phone fa-2xl" ></i>
-        <p>+62 81111 91601</p>
+        <p class="pt-3">+62 81111 91601</p>
       </div>
-      <div class="col">
+      <div class="col-sm-4">
         <i class="fa-regular fa-envelope fa-2xl"></i>
-        <p>info@lasuntucharcoal.com</p>
+        <p class="pt-3">info@lasuntucharcoal.com</p>
       </div>
-      <div class="col">
+      <div class="col-sm-4">
         <i class="fa-solid fa-map-location-dot fa-2xl"></i>
-        <p>Semarang, Central Java, Indonesia</p>
+        <p class="pt-3">Semarang, Central Java, Indonesia</p>
       </div>
     </div>
   </div>
