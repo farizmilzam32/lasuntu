@@ -6,6 +6,13 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.carousel-caption {
+    top: 30%;
+    left: 1%;
+    text-align: left;
+    max-width: 100rem;
+}
+
 .vertical-align{
     display: flex;
     align-items: center;
