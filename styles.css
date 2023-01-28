@@ -13,6 +13,10 @@ body{
     max-width: 100rem;
 }
 
+.carousel-timer{
+    transition: transform 2s ease, 
+}
+
 .vertical-align{
     display: flex;
     align-items: center;
